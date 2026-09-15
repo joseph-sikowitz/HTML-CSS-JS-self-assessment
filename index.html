@@ -4,6 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <link href="styles/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>HTML + CSS + JavaScript Self Assessment</title>
   </head>
 
@@ -11,11 +14,12 @@
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li><a href="#most-useful">Most Useful Tags</a></li>
+            <li><a href="#seo-tags">SEO Tags</a></li>
+            <li><a href="#grid">3x3 Grid</a></li>
+            <li><a href="#box-model">Box Model Gallery</a></li>
+            <li><a href="#itemized-list">Itemized List</a></li>
+            <li><a href="#positioning">Positioning</a></li>
         </ul>
     </nav>
 
@@ -24,7 +28,7 @@
     </header>
 
     <main>
-        <section>
+        <section id="most-useful">
             <h2>Most useful tags in HTML</h2>
                 <ul>
                     <li>&lt;a&gt; - defines a hyperlink</li>
@@ -40,7 +44,7 @@
                 </ul>
         </section>
 
-        <section>
+        <section id="seo-tags">
             <h2>Important SEO tags</h2>
                 <ul>
                     <li>&lt;title&gt; - used to determine the page subject for search engines</li>
@@ -50,14 +54,14 @@
                 </ul>
         </section>
 
-        <section>
+        <section id="grid">
             <h2>3x3 Grid</h2>
                 <div><span>Grid 1</span><span>Grid 2</span><span>Grid 3</span></div>
                 <div><span>Grid 4</span><span>Grid 5</span><span>Grid 6</span></div>
                 <div><span>Grid 7</span><span>Grid 8</span><span>Grid 9</span></div>
         </section>
 
-        <section>
+        <section id="box-model">
             <h2>Box Model Gallery</h2>
                 <div class="box-row">
                     <div class="box-cell border0">Border 0 px</div>
@@ -78,7 +82,7 @@
                 </div>
         </section>
 
-        <section>
+        <section id="itemized-list">
             <h2>Itemized List with Same Text and 6 Different Font Sizes Using Inline Styling</h2>
                 <ul>
                     <li style="font-size: 1cm;">Lorem ipsum dolor sit amet <em>- Example (1cm): Used for something printed like an official document.</em></li>
@@ -90,7 +94,7 @@
                 </ul>
         </section>
 
-        <section>
+        <section id="positioning">
             <h2>4 Different Positioning Options</h2>
                 <p class="positioned4">Lorem ipsum dolor sit amet</p>
                 <p class="positioned1">Lorem ipsum dolor sit amet</p>
