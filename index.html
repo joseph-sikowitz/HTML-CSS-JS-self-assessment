@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
+    <link href="styles/style.css" rel="stylesheet" />
     <title>HTML + CSS + JavaScript Self Assessment</title>
   </head>
-  <body>
 
+  <body>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -19,7 +20,7 @@
     </nav>
 
     <header>
-        <h1>HTML + CSS + JavaScript Self Assessment</h1>
+        <h1 class="title">HTML + CSS + JavaScript Self Assessment</h1>
     </header>
 
     <main>
@@ -58,13 +59,51 @@
 
         <section>
             <h2>Box Model Gallery</h2>
+                <div class="box-row">
+                    <div class="box-cell border0">Border 0 px</div>
+                    <div class="box-cell border5">Border 5 px</div>
+                    <div class="box-cell border10">Border 10 px</div>
+                </div>
+
+                <div class="box-row">
+                    <div class="box-cell margin0">Margin 0 px</div>
+                    <div class="box-cell margin5">Margin 5 px</div>
+                    <div class="box-cell margin10">Margin 10 px</div>
+                </div>
+
+                <div class="box-row">
+                    <div class="box-cell padding0">Padding 0 px</div>
+                    <div class="box-cell padding5">Padding 5 px</div>
+                    <div class="box-cell padding10">Padding 10 px</div>
+                </div>
+        </section>
+
+        <section>
+            <h2>Itemized List with Same Text and 6 Different Font Sizes Using Inline Styling</h2>
+                <ul>
+                    <li style="font-size: 1cm;">Lorem ipsum dolor sit amet <em>- Example (1cm): Used for something printed like an official document.</em></li>
+                    <li style="font-size: 5mm;">Lorem ipsum dolor sit amet <em>- Example (5mm): Used for something printed like an official document.</em></li>
+                    <li style="font-size: 16px;">Lorem ipsum dolor sit amet <em>- Example (16px): Used for something printed like an official document.</em></li>
+                    <li style="font-size: 0.8em;">Lorem ipsum dolor sit amet <em>- Example(0.8em): Used to scale to the parent element so it may be used for a uniform page section.</em></li>
+                    <li style="font-size: 0.8rem;">Lorem ipsum dolor sit amet <em>- Example(0.8rem): Used to scale to the root element so it may be used to keep elements uniform across the entire page.</em></li>
+                    <li style="font-size: 60%;">Lorem ipsum dolor sit amet <em>- Example(60%): Used to scale to the containing element so it may be used for scaling when a container resizes.</em></li>
+                </ul>
+        </section>
+
+        <section>
+            <h2>4 Different Positioning Options</h2>
+                <p class="positioned4">Lorem ipsum dolor sit amet</p>
+                <p class="positioned1">Lorem ipsum dolor sit amet</p>
+                <p class="positioned2">Lorem ipsum dolor sit amet</p>
+                <p class="positioned3">Lorem ipsum dolor sit amet</p>
         </section>
     </main>
 
     <footer>
       <p>Sources:</p>
-        <ul>
+        <ul class="itemized-list">
                 <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements">HTML elements reference</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS reference</a></li>
                 <li><a href="https://www.link-assistant.com/news/html-tags-for-seo.html">15 Essential HTML SEO Tags You Can't Afford to Ignore in 2026</a></li>
         </ul>
       <p>&copy; Joseph Sikowitz. All rights reserved.</p>

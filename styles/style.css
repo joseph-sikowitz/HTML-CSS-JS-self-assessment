@@ -1,0 +1,135 @@
+nav {
+    width: 100%;
+    background: #c3f29b;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.title {
+    text-align: center;
+}
+
+.box-row {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.box-cell {
+    display: inline-block;
+}
+
+.border0 {
+    border: 0px solid #242c7f;
+    margin: 5px;
+    padding: 5px; 
+}
+
+.border5 {
+    border: 5px solid #242c7f;
+    margin: 5px;
+    padding: 5px; 
+}
+
+.border10 {
+    border: 10px solid #242c7f;
+    margin: 5px;
+    padding: 5px; 
+}
+
+.margin0 {
+    border: 5px solid #242c7f;
+    margin: 0px;
+    padding: 5px; 
+}
+
+.margin5 {
+    border: 5px solid #242c7f;
+    margin: 5px;
+    padding: 5px; 
+}
+
+.margin10 {
+    border: 5px solid #242c7f;
+    margin: 10px;
+    padding: 5px; 
+}
+
+.padding0 {
+    border: 5px solid #242c7f;
+    margin: 5px;
+    padding: 0px; 
+}
+
+.padding5 {
+    border: 5px solid #242c7f;
+    margin: 5px;
+    padding: 5px; 
+}
+
+.padding10 {
+    border: 5px solid #242c7f;
+    margin: 5px;
+    padding: 10px; 
+}
+
+li::marker {
+    font-size: 1rem;
+}
+
+.positioned1 {
+    display: inline;
+    position: static;
+    background-color: green;
+    top: 30px;
+    left: 80px;
+}
+
+.positioned2 {
+    display: inline;
+    position: relative;
+    background-color: yellow;
+    top: 30px;
+    left: 80px;
+}
+
+.positioned3 {
+    display: inline;
+    position: absolute;
+    background-color: purple;
+    top: 50px;
+    left: 500px;
+}
+
+.positioned4 {
+    display: inline;
+    position: absolute;
+    background-color: red;
+    top: 20px;
+    left: 10px;
+    z-index: -1;
+}
+
+section {
+    position: relative;
+}
+
+main {
+    padding-bottom: 200px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #c3f29b;
+    width: 100%;
+}
